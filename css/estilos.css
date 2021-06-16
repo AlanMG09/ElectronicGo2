@@ -1,0 +1,83 @@
+.input-group.md-form.form-sm.form-1 input {
+    border: 1px solid #bdbdbd;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+
+label {
+    margin: 0;
+    padding: 0;
+}
+
+.label-texto {
+    margin-bottom: 2%;
+}
+
+footer, footer > p {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    height: 10vh;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        padding-top: 5em;
+    }
+
+    header li {
+        margin-left: 0.75em;
+    }
+
+    header>div:first-child>nav>div>button:nth-child(2) {
+        order: -1
+    }
+
+    .navbar-brand {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    body {
+        padding-top: 1em;
+    }
+
+    header>div>nav:last-child>div {
+        width: 50%;
+    }
+
+    main {
+        padding-top: 4em;
+    }
+
+    header li {
+        margin-left: 1.8em;
+    }
+
+    header>div:first-child>nav>div>button:nth-child(2) {
+        order: -1
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        padding-top: 5em;
+    }
+
+    main {
+        padding-top: 0.5em;
+    }
+
+    header li {
+        padding: 0 1.5%;
+    }
+
+    header > div > nav > button:nth-child(3) {
+        order: 3;
+    }
+}
+
